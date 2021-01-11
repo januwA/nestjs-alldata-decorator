@@ -9,7 +9,7 @@ $ npm install nestjs-alldata-decorator
 
 ## User
 ```ts
-import { All, Controller, Get } from '@nestjs/common';
+import { All, Controller } from '@nestjs/common';
 import { AllData } from 'nestjs-alldata-decorator';
 
 @Controller()
@@ -26,3 +26,6 @@ curl --location --request POST 'http://localhost:3000/xxx?word=hello' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'name=ajanuw'
 ```
+
+See also:
+  - [custom decorators](https://docs.nestjs.com/custom-decorators)
