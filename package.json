@@ -1,10 +1,12 @@
 {
   "name": "nestjs-alldata-decorator",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "When using the \"@All\" decorator, collect all data",
   "main": "index.js",
   "types": "./index.d.ts",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc index.ts --declaration --module CommonJS  --target ESNext --moduleResolution node"
+  },
   "keywords": [
     "Nestjs",
     "@All",
@@ -20,6 +22,7 @@
   "devDependencies": {
     "@nestjs/common": "^7.6.5",
     "reflect-metadata": "^0.1.13",
+    "@types/node": "^14.14.20",
     "rxjs": "^6.6.3"
   }
 }
