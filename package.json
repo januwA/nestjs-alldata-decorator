@@ -1,6 +1,6 @@
 {
   "name": "nestjs-alldata-decorator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "When using the \"@All\" decorator, collect all data",
   "main": "index.js",
   "types": "./index.d.ts",

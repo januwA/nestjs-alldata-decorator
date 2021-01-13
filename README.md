@@ -7,7 +7,7 @@ When using the "@All" decorator, collect all data
 $ npm install nestjs-alldata-decorator
 ```
 
-## User
+## Use
 ```ts
 import { All, Controller } from '@nestjs/common';
 import { AllData } from 'nestjs-alldata-decorator';
@@ -29,3 +29,4 @@ curl --location --request POST 'http://localhost:3000/xxx?word=hello' \
 
 See also:
   - [custom decorators](https://docs.nestjs.com/custom-decorators)
+  - [Use validator](https://docs.nestjs.com/custom-decorators#working-with-pipes)
